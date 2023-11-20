@@ -220,8 +220,6 @@ pygame==2.1.2
 Pygments==2.16.1
 pyinstaller==5.4.1
 pyinstaller-hooks-contrib==2022.10
-PyMuPDF==1.23.5
-PyMuPDFb==1.23.5
 pyod==1.1.1
 pyparsing==3.0.7
 pypdf==3.17.0
@@ -234,7 +232,6 @@ python-dotenv==1.0.0
 python-multipart==0.0.6
 pytz==2021.3
 PyWavelets==1.4.1
-pywinpty==2.0.2
 pyxnat==1.6
 PyYAML==6.0
 pyzmq==19.0.2
