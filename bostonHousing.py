@@ -17,11 +17,11 @@ from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 import matplotlib.font_manager as fm
 
-font_location = '/home/sagemaker-user/NanumGothic.ttf'
-fm.fontManager.addfont(font_location)
-font_name = fm.FontProperties(fname=font_location).get_name()
-matplotlib.rc('font', family=font_name)
-matplotlib.rc('axes', unicode_minus=False)
+# font_location = '/home/sagemaker-user/NanumGothic.ttf'
+# fm.fontManager.addfont(font_location)
+# font_name = fm.FontProperties(fname=font_location).get_name()
+# matplotlib.rc('font', family=font_name)
+# matplotlib.rc('axes', unicode_minus=False)
 
 
 # 웹 페이지 기본 설정
