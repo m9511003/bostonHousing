@@ -11,6 +11,7 @@ import time
 import datetime
 import pickle
 import glob
+import os
 
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
@@ -22,6 +23,21 @@ import matplotlib.font_manager as fm
 # font_name = fm.FontProperties(fname=font_location).get_name()
 # matplotlib.rc('font', family=font_name)
 # matplotlib.rc('axes', unicode_minus=False)
+
+
+
+
+# 현재 작업 디렉토리 경로 가져오기
+current_directory = os.getcwd()
+
+# 'models' 폴더 경로 설정
+models_directory = os.path.join(current_directory, 'models')
+
+# 'models' 폴더가 없으면 생성하기
+if not os.path.exists(models_directory):
+    os.mkdir(models_directory)
+print('디렉토리 생성 완료...')
+
 
 
 # 웹 페이지 기본 설정
