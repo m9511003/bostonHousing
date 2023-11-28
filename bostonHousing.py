@@ -27,6 +27,9 @@ import matplotlib.font_manager as fm
 
 
 
+
+
+
 # 현재 작업 디렉토리 경로 가져오기
 current_directory = os.getcwd()
 
@@ -36,7 +39,7 @@ models_directory = os.path.join(current_directory, 'models')
 # 'models' 폴더가 없으면 생성하기
 if not os.path.exists(models_directory):
     os.mkdir(models_directory)
-print('디렉토리 생성 완료...')
+    print('디렉토리 생성 완료...')
 
 
 
